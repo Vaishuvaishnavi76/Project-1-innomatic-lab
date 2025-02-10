@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+.start{
+            background-color: red;
+            color: white;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            gap: 40px;
+            font-size: 15px;
+            font-weight: bold;
+}
+.enquire{
+    margin-top: 10px;
+    margin-left: 50px;
+    position:sticky;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.contact i{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-box{
+    background-color: black;
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: left;
+    gap: 5px;
+}
+.logo{
+    max-height: 70px;
+    margin-left: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+    position:fixed;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.nav-links a:hover{
+    color: #b22222;
+}
+.paynow{
+    background: black;
+    color: white;
+    padding: 2px 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size:short;
+}
+.scroll-container{
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+h2{
+        
+    color: red;
+    padding-right: 10px;
+    display: inline;
+
+}  
+h3{
+    color: red;
+    padding-right: 10px;
+    display: inline;
+} 
+button2{ 
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cards-container{
+    display: flex; /* Use flexbox for card layout */
+    gap: 20px; /* Spacing between cards */
+    margin-right: 20px; 
+}
+.card{
+    width: 200px; /* Set a fixed width for the cards */
+    height: 250px; /* Set a fixed height for the cards */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+} 
